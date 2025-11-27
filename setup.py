@@ -5,7 +5,7 @@ setup(
     version="1.0.0",
     author="sexyxcoders",
     description="Telegram Multi-VC Assistant Bot",
-    url="https://github.com/sexyxcoders/Nexa-Vc-Fighter",
+    url="https://github.com/Nobi-123/Nexa-Vc-Fighter",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
