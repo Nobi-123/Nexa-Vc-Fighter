@@ -2,7 +2,7 @@ import asyncio
 import json
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls, idle
-from pytgcalls.types import AudioPiped  # if using audio
+from pytgcalls.types.input_stream import AudioPiped  # if using audio
 from pyrogram.types import Message
 from config import *
 import os
