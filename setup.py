@@ -8,18 +8,16 @@ setup(
     url="https://github.com/Nobi-123/Nexa-Vc-Fighter",
     packages=find_packages(),
     include_package_data=True,
+    python_requires=">=3.9,<3.10",
     install_requires=[
         "pyrogram==2.0.106",
         "tgcrypto",
         "pydub",
-        "aiohttp",
-        # Install PyTgCalls 2.0 fork directly from GitHub
-        "git+https://github.com/Laky64/pytgcalls.git@2.0.0"
+        "aiohttp"
     ],
-    python_requires=">=3.9,<3.10",
     entry_points={
         "console_scripts": [
-            # Allows running the bot with "nexa-bot" command if bot.py has main()
+            # Allows running the bot with "nexa-bot" if bot.py has main()
             "nexa-bot=bot:main",
         ],
     },
