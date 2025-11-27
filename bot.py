@@ -1,8 +1,8 @@
 import asyncio
 import json
 from pyrogram import Client, filters
-from pytgcalls import PyTgCalls
-from pyrogram import idle
+from py_tgcalls import PyTgCalls, idle
+from py_tgcalls.types import AudioPiped
 from pyrogram.types import Message
 from config import *
 import os
