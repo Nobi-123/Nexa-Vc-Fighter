@@ -2,7 +2,7 @@ import asyncio
 import json
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
-from pytgcalls.idle import idle
+from pyrogram import idle
 from pyrogram.types import Message
 from config import *
 import os
