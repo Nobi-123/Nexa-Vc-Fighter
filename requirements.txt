@@ -1,5 +1,6 @@
-pyrogram==2.0.106
-py-tgcalls==2.2.9
-tgcrypto
-pydub
-aiohttp
+pyrogram
+pytgcalls
+requests
+yt-dlp
+hachoir
+pillow
