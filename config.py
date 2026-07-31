@@ -1,8 +1,8 @@
 import os
 
 # Replace these with your own values or use environment variables.
-API_ID = int(os.getenv("API_ID", "22657083"))
-API_HASH = os.getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
+API_ID = int(os.getenv("API_ID", "38138069"))
+API_HASH = os.getenv("API_HASH", "2ed313ebcc45cbcf65d1fc736ec71681")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8696176489:AAETmFQQdGL4lgHHdt3ULyA1sQzRQYjGpRQ")
 
 # Owner and sudo users: only owner and sudo can control the bot
