@@ -1,3 +1,4 @@
 pyrogram==2.0.106
-pytgcalls==0.8.6
+pytgcalls==2.1.0
+requests==2.31.0
 asyncio
