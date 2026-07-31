@@ -10,6 +10,11 @@ This repo includes a minimal skeleton to connect multiple assistant sessions and
 - `/status` — show connected assistants and their VC status
 - Sudo/Owner control
 
+## Deploy to Heroku
+Click the button below to deploy this bot directly on Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AMMUKASH/Nexa-Vc-Fighter/tree/patch-1)
+
 ## Setup (quick)
 1. Install Python 3.10+ and create a virtualenv.
 2. `pip install -r requirements.txt`
